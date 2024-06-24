@@ -3,9 +3,7 @@ import './APO.css';
 
 function APO()  {
   return (
-    <div>
-        <h1>APO</h1>
-    </div>
+    <section id='apo'>APO</section>
   );
 };
 

@@ -3,9 +3,7 @@ import './GSAPP.css';
 
 function GSAPP()  {
   return (
-    <div>
-        <h1>GSAPP</h1>
-    </div>
+    <section id='gsapp'>GSAPP</section>
   );
 };
 

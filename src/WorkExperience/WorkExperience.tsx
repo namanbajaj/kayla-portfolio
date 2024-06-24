@@ -4,14 +4,14 @@ import APO from './APO/APO';
 import GSAPP from './GSAPP/GSAPP';
 import HealthCentral from './HealthCentral/HealthCentral';
 
-function WorkExperience()  {
+function WorkExperience() {
   return (
-    <div>
-        <h1>WorkExperience</h1>
-        <APO />
-        <GSAPP />
-        <HealthCentral />
-    </div>
+    <section id='work-experience'>
+      <h1>Work Experience</h1>
+      <APO />
+      <GSAPP />
+      <HealthCentral />
+    </section>
   );
 };
 
