@@ -1,10 +1,45 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 
 import { IoMdMenu } from "react-icons/io";
 
 
 function Navbar() {
+  // Check if hamburger should be present
+  const [isHamburger, setIsHamburger] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      const navbarElement = document.getElementsByClassName('navbar')[0];
+      if (navbarElement) {
+        const navbarChildren = Array.from(navbarElement.children);
+        let isOffScreen = false;
+
+        for (let child of navbarChildren) {
+          const rect = child.getBoundingClientRect();
+          if (rect.right > window.innerWidth || rect.bottom > window.innerHeight) {
+            isOffScreen = true;
+            console.log('offscreen');
+            break;
+          }
+        }
+
+        setIsHamburger(isOffScreen);
+      }
+    };
+
+    // Check on initial load
+    handleResize();
+
+    // Add resize event listener
+    window.addEventListener('resize', handleResize);
+
+    // Clean up event listener on unmount
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+
+  // Overlay
   const [isOverlayOpen, setIsOverlayOpen] = useState(false);
 
   const openOverlay = () => {
@@ -35,8 +70,8 @@ function Navbar() {
       </div>
 
       <div className='hamburger'>
-        <div className='hamburger-icon' onClick={openOverlay}>
-          <IoMdMenu />
+        <div className='hamburger-icon'onClick={openOverlay}>
+          <IoMdMenu size={35}/>
         </div>
       </div>
 
@@ -56,9 +91,7 @@ function Navbar() {
           </div>
         </div>
       )}
-
     </nav>
-
   )
 }
 

@@ -1,9 +1,43 @@
+#home {
+  background: linear-gradient(to right, #f5f5dc, #ff9999);
+  min-width: fit-content;
+}
+
 .container {
   min-height: 800px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: fit-content;
 }
 
 .intro-info {
-  
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-info * {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+.intro-text {
+  font-size: 100px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.intro-info h2 {
+  font-size: 30px;
+}
+
+.intro-info img {
+  width: 300px;
+  height: auto;
 }

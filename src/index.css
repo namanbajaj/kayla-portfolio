@@ -1,13 +1,13 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Georgia', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  
   /* For now */
   background-color: #3a3a3a;
+
+  max-width: 100vw;
 }
 
 code {
@@ -17,4 +17,20 @@ code {
 
 section {
   color: rgb(21, 102, 105);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn {
+  background-color: #F0CDFF; 
+  color: rgb(21, 102, 105); 
+  border: 1px solid rgb(21, 102, 105);
+  border-radius: 5px;
+  padding: 15px 50px; 
+  text-align: center; 
+  display: inline-block;
+  font-size: 16px;
+  width: fit-content;
 }
