@@ -7,7 +7,7 @@ body {
   /* For now */
   background-color: #3a3a3a;
 
-  max-width: 100vw;
+  min-width: 100vw  ;
 }
 
 code {
