@@ -1,9 +1,12 @@
 import React from 'react';
 import './GSAPP.css';
 
-function GSAPP()  {
+function GSAPP() {
   return (
-    <section id='gsapp'>GSAPP</section>
+    <div>
+      <section id='gsapp'>GSAPP</section>
+      <section id='gsapp-posts'>GSAPP Posts</section>
+    </div>
   );
 };
 

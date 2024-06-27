@@ -1,16 +1,12 @@
 #home {
   background: linear-gradient(to right, #f5f5dc, #ff9999);
-  min-width: fit-content;
 }
 
 .container {
-  min-height: 800px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
   min-width: fit-content;
 }
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import './WorkExperience.css';
 import APO from './APO/APO';
 import GSAPP from './GSAPP/GSAPP';
@@ -6,8 +6,10 @@ import HealthCentral from './HealthCentral/HealthCentral';
 
 function WorkExperience() {
   return (
-    <section id='work-experience'>
-      <h1>Work Experience</h1>
+    <section id='workexperience'>
+      <div id='workexperiencespecific'>
+        <h1>Work Experience</h1>
+      </div>
       <APO />
       <GSAPP />
       <HealthCentral />

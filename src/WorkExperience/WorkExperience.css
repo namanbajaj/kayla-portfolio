@@ -1,0 +1,14 @@
+#workexperience {
+  background: linear-gradient(to right, #FED3C1, #E0A990);
+}
+
+#workexperiencespecific {
+  min-height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#workexperience section {
+  min-width: 100vw;
+}

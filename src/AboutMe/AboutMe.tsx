@@ -3,7 +3,8 @@ import './AboutMe.css';
 
 function AboutMe()  {
   return (
-    <section id='aboutme'>About Me</section>
+    <section id='aboutme'>About Me
+    </section>
   );
 };
 

@@ -23,12 +23,13 @@ function Navbar() {
     <nav>
       <div className="navbar">
         <a href="#home">Home</a>
+        <a href="#aboutme">About Me</a>
         <a href="#education">Education</a>
-        <a href="coursework">Coursework</a>
-        <a href="#work-experience">Work Experience</a>
+        <a href="#coursework">Coursework</a>
+        <a href="#workexperience">Work Experience</a>
         <a href="#apo">APO</a>
         <a href="#gsapp">GSAPP</a>
-        <a href="#health-central">Health Central</a>
+        <a href="#healthcentral">Health Central</a>
         <a href="#contact">Contact</a>
       </div>
 
@@ -42,12 +43,13 @@ function Navbar() {
         <div className="overlay-content">
           <div className="navbar-mobile">
             <a href="#home" onClick={closeOverlay}>Home</a>
+            <a href="#aboutme">About Me</a>
             <a href="#education" onClick={closeOverlay}>Education</a>
             <a href="#coursework" onClick={closeOverlay}>Coursework</a>
-            <a href="#work-experience" onClick={closeOverlay}>Work Experience</a>
+            <a href="#workexperience" onClick={closeOverlay}>Work Experience</a>
             <a href="#apo" onClick={closeOverlay}>APO</a>
             <a href="#gsapp" onClick={closeOverlay}>GSAPP</a>
-            <a href="#health-central" onClick={closeOverlay}>Health Central</a>
+            <a href="#healthcentral" onClick={closeOverlay}>Health Central</a>
             <a href="#contact" onClick={closeOverlay}>Contact</a>
           </div>
         </div>

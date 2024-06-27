@@ -17,6 +17,12 @@ code {
 
 section {
   color: rgb(21, 102, 105);
+  min-height: 800px;
+  min-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 html {
