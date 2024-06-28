@@ -1,5 +1,6 @@
 #home {
   background: linear-gradient(to right, #f5f5dc, #ff9999);
+  height: 850px;
 }
 
 .container {
@@ -13,6 +14,7 @@
 .intro-info {
   display: flex;
   flex-direction: column;
+  padding-top: 100px;
 }
 
 .intro-info * {

@@ -4,9 +4,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
-  /* For now */
-  background-color: #3a3a3a;
-
   min-width: 100vw  ;
 }
 
