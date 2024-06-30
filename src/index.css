@@ -3,8 +3,8 @@ body {
   font-family: 'Georgia', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
-  min-width: 100vw  ;
+
+  min-width: 100vw;
 }
 
 code {
@@ -18,8 +18,16 @@ section {
   min-width: fit-content;
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.flex_container {
+  display: flex;
+  flex: 1;
   justify-content: center;
   align-items: center;
+  width: 100vw;
 }
 
 html {
@@ -27,12 +35,12 @@ html {
 }
 
 .btn {
-  background-color: #F0CDFF; 
-  color: rgb(21, 102, 105); 
+  background-color: #F0CDFF;
+  color: rgb(21, 102, 105);
   border: 1px solid rgb(21, 102, 105);
   border-radius: 5px;
-  padding: 15px 50px; 
-  text-align: center; 
+  padding: 15px 50px;
+  text-align: center;
   display: inline-block;
   font-size: 16px;
   width: fit-content;
@@ -44,6 +52,15 @@ html {
   height: fit-content;
   padding: 20px 50px;
   line-height: 200%;
+  border-radius: 5px;
+  border-color: rgb(21, 102, 105);
+  border-width: 2px;
+  border-style: solid;
+}
+
+.info_box h1 {
+  font-size: 2rem;
+  margin: 0;
 }
 
 .info_box h2 {
@@ -52,4 +69,8 @@ html {
 
 .info_box p {
   font-size: 1.2rem;
+}
+
+.slide_title {
+  font-size: 3rem;
 }
