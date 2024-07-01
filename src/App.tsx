@@ -8,6 +8,7 @@ import Coursework from './Coursework/Coursework';
 import WorkExperience from './WorkExperience/WorkExperience';
 import Contact from './Contact/Contact';
 import AboutMe from './AboutMe/AboutMe';
+import Footer from './Footer/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Coursework />
       <WorkExperience />
       <Contact />
+      <Footer />
     </div>
   );
 }
