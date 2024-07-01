@@ -39,7 +39,7 @@ function Coursework() {
               This group project discusses the various types of competition in the workplace as well as how it effects employees in a virtual setting.
             </div>
           </div>
-          <a href="https://read.bookcreator.com/NKqpj6iPPRQKvOl5X4TCJFztOq23/LaiZV9H0SOaOf-vmZopk0A/NyPpUaI2Su23Zp4DUXR1XQ" className='btn' rel='noopener noreferrer'>Read Here</a>
+          <a href="https://read.bookcreator.com/NKqpj6iPPRQKvOl5X4TCJFztOq23/LaiZV9H0SOaOf-vmZopk0A/NyPpUaI2Su23Zp4DUXR1XQ" className='btn' target='_blank' rel='noopener noreferrer'>Read Here</a>
         </div>
 
         <div className='info_box_container'>
@@ -52,7 +52,7 @@ function Coursework() {
               This presentation recaps my experience crafting and conducting a professional interview with 2x TedX speaker Nadia Jagessar.
             </div>
           </div>
-          <a href="https://www.canva.com/design/DAF1alLSfZ8/zO-hlJVW-a0h5CWyHX0Vxw/edit" className='btn' rel='noopener noreferrer'>Read Here</a>
+          <a href="https://www.canva.com/design/DAF1alLSfZ8/zO-hlJVW-a0h5CWyHX0Vxw/edit" className='btn' target='_blank' rel='noopener noreferrer'>Read Here</a>
         </div>
       </div>
     </section>

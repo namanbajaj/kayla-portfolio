@@ -21,6 +21,25 @@
   height: 300px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+}
+
+.w_e_list {
+  width: 350px;
+  padding: 0px;
+  text-align: center;
+}
+
+.w_e_info {
+  font-size: 1.2rem;
+}
+
+.w_e_list_img {
+  width: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.m_c {
+  width: 50px; 
 }
