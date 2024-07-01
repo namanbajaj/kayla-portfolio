@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.351a430c.css",
+    "main.js": "/static/js/main.ddcaeac4.js",
+    "static/media/apo 2.gif": "/static/media/apo 2.75c178e22ec6293362d4.gif",
+    "static/media/insta post example.png": "/static/media/insta post example.bd8c32e8c816180a7e9b.png",
+    "static/media/why i rushed apo.png": "/static/media/why i rushed apo.080c99a7b27f8f2be4fa.png",
+    "static/media/apo rush 1.gif": "/static/media/apo rush 1.95ac18b1e2684c8bcbd2.gif",
+    "static/media/computer.svg": "/static/media/computer.39ae00b243f932b54ab3da313c40bfea.svg",
+    "static/media/gsapp 4.webp": "/static/media/gsapp 4.289e0732018af85ee148.webp",
+    "static/media/gsapp 6.webp": "/static/media/gsapp 6.937cceab7d2314e01e06.webp",
+    "static/media/gsapp 5.webp": "/static/media/gsapp 5.3eb6e126d963dcf1eedb.webp",
+    "static/media/headshot.png": "/static/media/headshot.71b78c87cb77b98f764e.png",
+    "static/media/gsapp 2.webp": "/static/media/gsapp 2.caed9eb83a64bbf50d0d.webp",
+    "static/media/skills_icon.svg": "/static/media/skills_icon.7448022892ddd86db979817b1dc0f020.svg",
+    "static/media/gsapp 3.webp": "/static/media/gsapp 3.6016a63e43b10cae2a1f.webp",
+    "static/media/connect.svg": "/static/media/connect.c863cb292ddbb7e82481ce64df284d01.svg",
+    "static/media/apo 6.webp": "/static/media/apo 6.987e7cfa9b125bfbfd09.webp",
+    "static/media/apo 5.webp": "/static/media/apo 5.6af8dd17644395e3a651.webp",
+    "static/media/typewriter.svg": "/static/media/typewriter.b0362d75b2b629f18fe141fbff33909e.svg",
+    "static/media/apo 4.webp": "/static/media/apo 4.8b7bb360e07b7ae5793c.webp",
+    "static/media/apo 3.webp": "/static/media/apo 3.76201f3204b0a2f93953.webp",
+    "static/media/post analytics 3.png": "/static/media/post analytics 3.2278d364b1477657fc54.png",
+    "static/media/post analytics 2.png": "/static/media/post analytics 2.babd16fae3820fa9f08e.png",
+    "static/media/lightbulb.svg": "/static/media/lightbulb.cdc794d9d6beaa4bed72.svg",
+    "static/media/post analytics 1.png": "/static/media/post analytics 1.78baeb786cbd691af6d9.png",
+    "static/media/curls.svg": "/static/media/curls.186fb536fb6de92ec6a652ac0d762834.svg",
+    "static/media/people.svg": "/static/media/people.086ed93a9d0754ab794380e9bf41ba01.svg",
+    "static/media/megaphone.svg": "/static/media/megaphone.25431a81f7fc835a48f2231850cedc1a.svg",
+    "static/media/cap.svg": "/static/media/cap.d2038156331c7ce1178acd1737e03cf9.svg",
+    "static/media/text_bubble.svg": "/static/media/text_bubble.bad77ce2bf16472b5489761ade90961e.svg",
+    "static/media/healthcentral.webp": "/static/media/healthcentral.bc8e68205054110d2989.webp",
+    "index.html": "/index.html",
+    "main.351a430c.css.map": "/static/css/main.351a430c.css.map",
+    "main.ddcaeac4.js.map": "/static/js/main.ddcaeac4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.351a430c.css",
+    "static/js/main.ddcaeac4.js"
+  ]
+}
