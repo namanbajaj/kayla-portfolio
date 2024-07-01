@@ -3,7 +3,6 @@ import './Education.css';
 
 import Cap from './assets/cap.svg';
 import SkillsIcon from './assets/skills_icon.svg';
-import Lightbulb from './assets/lightbulb.svg';
 
 const data = [
   'Google Ads/Analytics',
@@ -28,14 +27,17 @@ function Education() {
       <h1 className='slide_title'>Education and Skills</h1>
       <div className='flex_container'>
         <div className='education_grid'>
-          <div className='education_list info_box'>
-            <img className='edu_list_img' src={Cap} alt="" />
-            <h1>Rutgers University</h1>
-            <ul className='edu_info'>
-              <li><b>Major: </b>Human Resources Management  & Communication w/ a specialization in Strategic Public Relations</li>
-              <li><b>Graduation Date: </b>May 2024</li>
-              <li><b>GPA: </b>3.4/4.0</li>
-            </ul>
+          <div className='info_box_container'>
+            <div className='education_list info_box'>
+              <img className='edu_list_img' src={Cap} alt="" />
+              <h1>Rutgers University</h1>
+              <ul className='edu_info'>
+                <li><b>Major: </b>Human Resources Management  & Communication w/ a specialization in Strategic Public Relations</li>
+                <li><b>Graduation Date: </b>May 2024</li>
+                <li><b>GPA: </b>3.4/4.0</li>
+              </ul>
+            </div>
+            <a href="#coursework" className='btn'>Coursework</a>
           </div>
           <div className='skills_list info_box'>
             <div className='skills_header_container'>

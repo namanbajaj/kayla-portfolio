@@ -8,15 +8,6 @@
   margin-bottom: 30px;
 }
 
-.info_box_container {
-  display: flex;
-  flex-direction: column;
-}
-
-.info_box_container a {
-  margin-top: -20px;
-}
-
 .img_container {
   display: flex;
   align-items: center;

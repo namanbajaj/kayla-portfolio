@@ -1,9 +1,12 @@
 #workexperience {
-  background: linear-gradient(to right, #FED3C1, #E0A990);
+  background: radial-gradient(#E1CDAC, #EDA791, #FED2C1);
+}
+
+#workexperience .flex_container {
+  padding: 3rem 0;
 }
 
 #workexperiencespecific {
-  min-height: 800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,4 +14,13 @@
 
 #workexperience section {
   min-width: 100vw;
+}
+
+#workexperience .info_box {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
