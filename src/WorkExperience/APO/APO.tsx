@@ -21,7 +21,7 @@ function APO() {
             <li>Produced all “rush” social media posts, created a promotional video, and executed 2 weeks of interactive events for 50+ participants.</li>
             <li>Proposed new ideas to fellow e-board members and communicated consistently to 100+ potential new members</li>
           </ul>
-          <Carousel>
+          <Carousel infiniteLoop={true} autoPlay={true} interval={3000}>
                 <div>
                     <img src={APO1} />
                 </div>
