@@ -4,4 +4,38 @@
 
 #gsapp-posts {
   background: linear-gradient(to right, #D7C7B7, #B7D5C9);
+  padding: 5rem 0;
+}
+
+#gsapp li {
+  font-size: 1.3rem;
+}
+
+.gsapp_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.gsapp_grid .flex_container_row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex_container_row.gsapp_ads h2 {
+  text-align: center;
+}
+
+.posts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+.posts img {
+  width: 500px;
+  height: auto;
+  border-radius: 40px;
 }
