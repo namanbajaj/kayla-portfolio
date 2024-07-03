@@ -3,11 +3,6 @@
   padding: 3rem 0;
 }
 
-.healthcentral_grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
 #healthcentral .flex_container_row h2 {
   font-size: 2.5rem;
 }
@@ -17,11 +12,25 @@
   line-height: 140%;
 }
 
-.healthcentral_grid .flex_container_row {
+#healthcentral .flex_container_row {
   max-width: 700px;
 }
 
-.healthcentral_grid img {
+#healthcentral img {
   align-self: center;
   justify-self: center;
+}
+
+@media screen and (max-width: 768px){
+  #healthcentral .flex_container_row {
+    padding: 0 20px;
+  }
+
+  #healthcentral .flex_container_row h2 {
+    font-size: 2rem;
+  }
+
+  #healthcentral .flex_container_row li {
+    font-size: 1.5rem;
+  }
 }

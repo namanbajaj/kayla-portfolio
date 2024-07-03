@@ -16,7 +16,7 @@ function GSAPP() {
     <div>
       <section id='gsapp'>
         <h1 className='slide_title'>Marketing & Communication Intern at Rutgers Graduate School of Applied Professional Psychology (GSAPP)</h1>
-        <div className='gsapp_grid'>
+        <div className='flex_container'>
           <div className='flex_container_row'>
             <h2>Creative Process</h2>
             <h3>Below is a complete list of posts done during my time at GSAPP (9/19/22-12/14/22)</h3>
@@ -34,15 +34,16 @@ function GSAPP() {
           <div className='flex_container_row gsapp_ads'>
             <h2>Some Advertisements I’ve Created:</h2>
             <Carousel infiniteLoop={true} autoPlay={true} interval={3000}>
-            <div>
-              <img src={gsapp1} alt='' />
-            </div>
-            <div>
-              <img src={gsapp2} alt='' />
-            </div>
-          </Carousel>
+              <div>
+                <img src={gsapp1} alt='' />
+              </div>
+              <div>
+                <img src={gsapp2} alt='' />
+              </div>
+            </Carousel>
           </div>
         </div>
+
       </section>
 
       <section id='gsapp-posts'>

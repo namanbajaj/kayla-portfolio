@@ -7,7 +7,7 @@ function HealthCentral() {
   return (
     <section id='healthcentral'>
       <h1 className='slide_title'>Performance Marketing Intern at Health Central</h1>
-      <div className='healthcentral_grid'>
+      <div className='flex_container'>
         <img src={HealthCentralLogo} alt="" />
         <div className='flex_container_row'>
           <h2>Primary Tasks</h2>

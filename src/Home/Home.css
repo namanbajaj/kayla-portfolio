@@ -3,14 +3,6 @@
   padding-top: 100px;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  width: fit-content;
-  min-width: fit-content;
-}
-
 .intro-info {
   display: flex;
   flex-direction: column;
@@ -38,4 +30,19 @@
 .intro-info img {
   width: 300px;
   height: auto;
+}
+
+@media (max-width: 768px) {
+  #home {
+    padding-top: 0;
+  }
+
+  .intro-info {
+    text-align: center;
+  }
+
+  .headshot img {
+    width: 300px;
+    height: auto;
+  }
 }

@@ -7,6 +7,10 @@ body {
   min-width: 100vw;
 }
 
+#root {
+  width: 100vw;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -15,10 +19,10 @@ code {
 section {
   color: rgb(21, 102, 105);
   height: fit-content;
-  min-width: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: fit-content;
 }
 
 .flex_container {
@@ -155,4 +159,32 @@ html {
 
 .thumbs {
   padding-inline-start: 0;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  #root {
+    overflow: hidden;
+  }
+
+  .flex_container {
+    flex-direction: column;
+    padding-top: 0;
+    gap: 5rem;
+  }
+
+  .slide_title {
+    font-size: 2rem;
+  }
+
+  .info_banner {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+
+  /* Carousel */
+  .carousel-root {
+    width: 300px;
+  }
+
 }

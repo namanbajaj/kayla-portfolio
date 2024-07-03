@@ -26,7 +26,6 @@ function Education() {
     <section id='education'>
       <h1 className='slide_title'>Education and Skills</h1>
       <div className='flex_container'>
-        <div className='education_grid'>
           <div className='info_box_container'>
             <div className='education_list info_box'>
               <img className='edu_list_img' src={Cap} alt="" />
@@ -52,7 +51,6 @@ function Education() {
               ))}
             </ul>
           </div>
-        </div>
       </div>
 
 

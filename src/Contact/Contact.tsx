@@ -17,11 +17,11 @@ function Contact() {
         <div className='social_media_grid'>
           <div className='social_media_item_grid'>
             <div className='icon'><FaLinkedin size={size} /></div>
-            <a href="https://www.linkedin.com/in/kayla-ramn/" className='link'>Linkedin: kayla-ramn</a>
+            <a href="https://www.linkedin.com/in/kayla-ramn/" className='link'>kayla-ramn</a>
           </div>
           <div className='social_media_item_grid'>
             <div className='icon'><IoMdMail size={size} /></div>
-            <a href="mailto:kaylaramnarain@gmail.com" className='link'>Email: kaylaramnarain@gmail.com</a>
+            <a href="mailto:kaylaramnarain@gmail.com" className='link'>kaylaramnarain@gmail.com</a>
             </div>
           <div className='social_media_item_grid'>
             <div className='icon'><FaPhoneVolume size={size} /></div>

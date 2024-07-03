@@ -2,26 +2,32 @@
   background: linear-gradient(to right, #A7A3CE, #DE89A6);
 }
 
-.aboutme_container {
-  display: grid;
-  grid-template-columns: 1fr 1fr; 
-  margin-bottom: 30px;
-}
-
 .img_container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.aboutme_container img {
+#aboutme img {
   width: 300px;
   height: auto;
   display: flex;
 }
 
-.aboutme_container .info_box {
+#aboutme .info_box {
   width: auto;
   max-width: 750px;
   margin-left: -100px;
+}
+
+@media (max-width: 768px) {
+  #aboutme img {
+    display: none;
+  }
+
+  #aboutme .info_box {
+    padding: 0 40px;
+    margin: 0 40px;
+    line-height: 1.3;
+  }
 }

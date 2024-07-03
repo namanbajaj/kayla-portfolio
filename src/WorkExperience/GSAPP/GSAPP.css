@@ -11,13 +11,7 @@
   font-size: 1.3rem;
 }
 
-.gsapp_grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 50px;
-}
-
-.gsapp_grid .flex_container_row {
+#gsapp .flex_container_row {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -31,11 +25,37 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 50px;
+  gap: 3rem;
 }
 
 .posts img {
   width: 500px;
   height: auto;
   border-radius: 40px;
+}
+
+@media (min-width: 768px) {
+  #gsapp .flex_container_row h2 {
+    font-size: 2.5rem;
+  }
+  
+  #gsapp .flex_container_row h3 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #gsapp .flex_container_row {
+    padding: 0 20px;
+  }
+
+  .posts {
+    flex-direction: column;
+  }
+
+  .posts img {
+    width: 90vw;
+    height: auto;
+    padding: 0 5vw;
+  }
 }

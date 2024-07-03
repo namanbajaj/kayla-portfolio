@@ -45,9 +45,6 @@ function WorkExperience() {
           <a href="#healthcentral" className='btn'>Learn More</a>
         </div>
       </div>
-
-      <div id='workexperiencespecific'>
-      </div>
       <APO />
       <GSAPP />
       <HealthCentral />
