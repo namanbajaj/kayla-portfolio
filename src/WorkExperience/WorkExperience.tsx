@@ -20,7 +20,7 @@ function WorkExperience() {
             <h1>Marketing & Communications Intern</h1>
             <p>Rutgers Graduate School of Applied Professional Psychology</p>
           </div>
-          <a href="#healthcentral" className='btn'>Learn More</a>
+          <a href="#gsapp" className='btn'>Learn More</a>
         </div>
 
         <div className='info_box_container'>
@@ -29,7 +29,7 @@ function WorkExperience() {
             <h1>Performance Marketing Intern</h1>
             <p>HealthCentral</p>
           </div>
-          <a href="#gsapp" className='btn'>Learn More</a>
+          <a href="#healthcentral" className='btn'>Learn More</a>
         </div>
 
         <div className='info_box_container'>

@@ -13,7 +13,7 @@ function Navbar() {
   const closeOverlay = () => {
     setIsOverlayOpen(false);
   };
-  
+
   const toggleOverlay = () => {
     setIsOverlayOpen(!isOverlayOpen);
   };
@@ -31,11 +31,12 @@ function Navbar() {
         <a href="#aboutme">About Me</a>
         <a href="#skills">Skills</a>
         <a href="#education">Education</a>
-        <a href="#coursework">Coursework</a>
+        {/* <a href="#coursework">Coursework</a> */}
         <a href="#workexperience">Work Experience</a>
         <a href="#apo">APO</a>
         <a href="#gsapp">GSAPP</a>
         <a href="#healthcentral">Health Central</a>
+        <a href="#trailrunner">TRI</a>
         <a href="#contact">Contact</a>
       </div>
 
@@ -48,11 +49,12 @@ function Navbar() {
             <a href="#aboutme">About Me</a>
             <a href="#skills">Skills</a>
             <a href="#education" onClick={closeOverlay}>Education</a>
-            <a href="#coursework" onClick={closeOverlay}>Coursework</a>
+            {/* <a href="#coursework" onClick={closeOverlay}>Coursework</a> */}
             <a href="#workexperience" onClick={closeOverlay}>Work Experience</a>
             <a href="#apo" onClick={closeOverlay}>APO</a>
             <a href="#gsapp" onClick={closeOverlay}>GSAPP</a>
             <a href="#healthcentral" onClick={closeOverlay}>Health Central</a>
+            <a href="#trailrunner">TRI</a>
             <a href="#contact" onClick={closeOverlay}>Contact</a>
           </div>
         </div>

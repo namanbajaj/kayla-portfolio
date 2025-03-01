@@ -26,8 +26,8 @@ function GSAPP() {
               <li><a href="https://x.com/RutgersGSAPP" target='_blank' rel='noopener noreferrer'>Twitter</a></li>
             </ul> */}
             {/* <h2>Final results</h2> */}
-            <h3>Increased followers by 10% and engagements between faculty, staff, and students</h3>
-            <h3>Produced over 50 posts for the GSAPP social media channels</h3>
+            <p>Increased followers by 10% and engagements between faculty, staff, and students</p>
+            <p>Produced over 50 posts for the GSAPP social media channels</p>
           </div>
           <div className='flex_container_row gsapp_ads'>
             <h2>Creative Process:</h2>
