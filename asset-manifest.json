@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8f290bf2.css",
-    "main.js": "/static/js/main.b2e25efb.js",
+    "main.css": "/static/css/main.65df4157.css",
+    "main.js": "/static/js/main.e63dedbb.js",
     "static/media/apo 2.gif": "/static/media/apo 2.75c178e22ec6293362d4.gif",
     "static/media/insta post example.png": "/static/media/insta post example.bd8c32e8c816180a7e9b.png",
     "static/media/why i rushed apo.png": "/static/media/why i rushed apo.080c99a7b27f8f2be4fa.png",
@@ -34,11 +34,11 @@
     "static/media/cap.svg": "/static/media/cap.d2038156331c7ce1178acd1737e03cf9.svg",
     "static/media/healthcentral.webp": "/static/media/healthcentral.bc8e68205054110d2989.webp",
     "index.html": "/index.html",
-    "main.8f290bf2.css.map": "/static/css/main.8f290bf2.css.map",
-    "main.b2e25efb.js.map": "/static/js/main.b2e25efb.js.map"
+    "main.65df4157.css.map": "/static/css/main.65df4157.css.map",
+    "main.e63dedbb.js.map": "/static/js/main.e63dedbb.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f290bf2.css",
-    "static/js/main.b2e25efb.js"
+    "static/css/main.65df4157.css",
+    "static/js/main.e63dedbb.js"
   ]
 }
