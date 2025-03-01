@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import { IoMdMenu } from "react-icons/io";
+import Checkbox from './utils/Checkbox';
 
 function Navbar() {
   const [isOverlayOpen, setIsOverlayOpen] = useState(false);
@@ -11,6 +12,10 @@ function Navbar() {
 
   const closeOverlay = () => {
     setIsOverlayOpen(false);
+  };
+  
+  const toggleOverlay = () => {
+    setIsOverlayOpen(!isOverlayOpen);
   };
 
   const handleOverlayClick = (e: React.MouseEvent<HTMLDivElement>) => {
@@ -24,6 +29,7 @@ function Navbar() {
       <div className="navbar">
         <a href="#home">Home</a>
         <a href="#aboutme">About Me</a>
+        <a href="#skills">Skills</a>
         <a href="#education">Education</a>
         <a href="#coursework">Coursework</a>
         <a href="#workexperience">Work Experience</a>
@@ -33,17 +39,14 @@ function Navbar() {
         <a href="#contact">Contact</a>
       </div>
 
-      <div className='hamburger'>
-        <div className='hamburger-icon' onClick={openOverlay}>
-          <IoMdMenu size={35} />
-        </div>
-      </div>
+      <Checkbox isOpen={isOverlayOpen} toggleOverlay={toggleOverlay} />
 
       <div className={`overlay-background ${isOverlayOpen ? 'open' : ''}`} onClick={handleOverlayClick}>
         <div className="overlay-content">
           <div className="navbar-mobile">
             <a href="#home" onClick={closeOverlay}>Home</a>
             <a href="#aboutme">About Me</a>
+            <a href="#skills">Skills</a>
             <a href="#education" onClick={closeOverlay}>Education</a>
             <a href="#coursework" onClick={closeOverlay}>Coursework</a>
             <a href="#workexperience" onClick={closeOverlay}>Work Experience</a>

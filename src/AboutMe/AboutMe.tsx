@@ -1,5 +1,5 @@
-import React from 'react';
 import './AboutMe.css';
+import Resume from './assets/Resume.pdf'
 
 import Typewriter from './assets/typewriter.svg';
 
@@ -13,14 +13,25 @@ function AboutMe() {
         <div className='info_box_container'>
           <div className='info_box'>
             <h2>About Me</h2>
-            <p>
-              - I’m a passionate digital marketer interested in the Public Relations, Market Research, and Social Media fields. I appreciate the creative process and find it insightful to watch a project start from an idea in a conference room to a carefully crafted social media campaign. <br />
-
-              - I work hard to stay up to date with industry trends and take note from  measurements such as ROI and KPI metrics,  to help track and improve social media engagement. I am forever growing and enjoy learning about new fields to help gain fresh perspectives on my work. <br />
-
-              - My goal is to be able to tell a story through my work while leaving a long lasting, positive impact on others!</p>
+            <ul>
+              <li>
+                Hi! I’m a communications professional passionate about crafting compelling stories
+                and driving meaningful engagement. My experience in marketing, public relations,
+                and social media across multiple industries allows me to apply a fresh perspective to
+                my work.
+              </li>
+              <li>
+                I appreciate creative processes and find it insightful to watch a project start from an
+                idea in a conference room to a detailed campaign. I understand the importance of
+                keeping updated with industry trends and current events to communicate
+                effectively with others.
+              </li>
+              <li>
+                Let’s create something impactful together!
+              </li>
+            </ul>
           </div>
-          <a href="#education" className='btn'>Education</a>
+          <a href={Resume} className='btn'>Resume</a>
         </div>
       </div>
     </section>

@@ -9,6 +9,7 @@ import WorkExperience from './WorkExperience/WorkExperience';
 import Contact from './Contact/Contact';
 import AboutMe from './AboutMe/AboutMe';
 import Footer from './Footer/Footer';
+import Skills from './Skills/Skills';
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
       <Navbar />
       <Home />
       <AboutMe />
+      <Skills />
       <Education />
-      <Coursework />
+      {/* <Coursework /> */}
       <WorkExperience />
       <Contact />
       <Footer />

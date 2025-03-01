@@ -24,7 +24,7 @@ function APO() {
   return (
     <div id='apo'>
       <section id='apodr'>
-        <h1 className='slide_title'>Director of Recruitment for Alpha Phi Omega-Delta Rho Chapter</h1>
+        <h1 className='slide_title'>Alpha Phi Omega-Delta Rho Chapter</h1>
         <div className='flex_container_row'>
           <h2>Creative Process</h2>
           <ul>
@@ -40,6 +40,21 @@ function APO() {
             </div>
             <div>
               <img src={APO3} alt='' />
+            </div>
+            <div>
+              <img src={apodcs1} alt='' />
+            </div>
+            <div>
+              <img src={apodcs2} alt='' />
+            </div>
+            <div>
+              <img src={apodcs3} alt='' />
+            </div>
+            <div>
+              <img src={apodcs4} alt='' />
+            </div>
+            <div>
+              <img src={apodcs5} alt='' />
             </div>
           </Carousel>
 
@@ -64,7 +79,7 @@ function APO() {
 
 
 
-      <section id='apodcs'>
+      {/* <section id='apodcs'>
         <h1 className='slide_title'>Digital Content Strategist for Alpha Phi Omega-Delta Rho Chapter</h1>
         <div className='flex_container_row'>
           <h2>Creative Process</h2>
@@ -72,7 +87,7 @@ function APO() {
             <li><a href="https://www.instagram.com/rutgersapo/?hl=en">Alpha Phi Omega- Delta Rho Instagram</a></li>
           </ul>
           <Carousel infiniteLoop={true} autoPlay={true} interval={3000}>
-          <div>
+            <div>
               <img src={apodcs1} alt='' />
             </div>
             <div>
@@ -89,7 +104,7 @@ function APO() {
             </div>
           </Carousel>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

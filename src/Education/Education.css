@@ -2,20 +2,31 @@
   background: linear-gradient(to right, #B0DBF7, #DCC99D);
 }
 
-.education_grid .info_box {
-  align-self: center;
-  justify-self: right;
+.edu_banner_box {
+  width: 70%;
+  max-width: 1500px;
 }
 
-.education_list {
-  max-width: 400px;
-  width: 350px;
-  padding: 0px;
+.edu_banner_grid {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.edu_banner_grid_school {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  padding: 0 6rem;
 }
 
-.edu_info {
-  font-size: 1.2rem;
+.edu_banner_grid_info {
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .edu_list_img {
@@ -24,40 +35,11 @@
   padding-top: 10px;
 }
 
-.skills_list {
-  max-width: 700px;
-}
-
-.skills_list ul {
-  padding: 20px 0;
-  margin: 0;
-  list-style-type: none;
-  height: 100%;
-}
-
-.skills_list ul li {
-  display: inline-block;
-  height: 100%;
-  margin: 5px 0;
-  padding-left: 30px;
-  padding-right: 20px;
-  background: url('assets/lightbulb.svg') no-repeat left center;
-  background-size: 30px 30px;
-}
-
-.skills_header_container {
+#education .info_box.info_box_helper {
+  width: 350px;
+  height: 350px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-}
-
-.skills_header_container *{
-  margin-right: 20px;
-}
-
-@media (max-width: 768px) {
-  .skills_list {
-    padding: 0 20px;
-    margin: 0 20px;
-  }
 }

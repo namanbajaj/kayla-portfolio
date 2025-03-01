@@ -18,21 +18,19 @@ function GSAPP() {
         <h1 className='slide_title'>Marketing & Communication Intern at Rutgers Graduate School of Applied Professional Psychology (GSAPP)</h1>
         <div className='flex_container'>
           <div className='flex_container_row'>
-            <h2>Creative Process</h2>
+            {/* <h2>Creative Process</h2>
             <h3>Below is a complete list of posts done during my time at GSAPP (9/19/22-12/14/22)</h3>
             <ul>
               <li><a href="https://www.facebook.com/RutgersGSAPP/" target='_blank' rel='noopener noreferrer'>Facebook</a></li>
               <li><a href="https://www.instagram.com/rutgersgsapp/?hl=en" target='_blank' rel='noopener noreferrer'>Instagram</a></li>
               <li><a href="https://x.com/RutgersGSAPP" target='_blank' rel='noopener noreferrer'>Twitter</a></li>
-            </ul>
-            <h2>Final results</h2>
-            <ul>
-              <li>Increased followers by 10% and engagements between faculty, staff, and students</li>
-              <li>Produced over 50 posts for the GSAPP social media channels</li>
-            </ul>
+            </ul> */}
+            {/* <h2>Final results</h2> */}
+            <h3>Increased followers by 10% and engagements between faculty, staff, and students</h3>
+            <h3>Produced over 50 posts for the GSAPP social media channels</h3>
           </div>
           <div className='flex_container_row gsapp_ads'>
-            <h2>Some Advertisements I’ve Created:</h2>
+            <h2>Creative Process:</h2>
             <Carousel infiniteLoop={true} autoPlay={true} interval={3000}>
               <div>
                 <img src={gsapp1} alt='' />
@@ -40,20 +38,27 @@ function GSAPP() {
               <div>
                 <img src={gsapp2} alt='' />
               </div>
+              <div>
+                <img src={post1} alt="" />
+              </div>
+              <div>
+                <img src={post2} alt="" />
+              </div>
+              <div>
+                <img src={post3} alt="" />
+              </div>
             </Carousel>
           </div>
         </div>
 
       </section>
-
+      {/* 
       <section id='gsapp-posts'>
         <h2>Some of My Favorite GSAPP Posts</h2>
         <div className='posts'>
-          <img src={post1} alt="" />
-          <img src={post2} alt="" />
-          <img src={post3} alt="" />
+
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
