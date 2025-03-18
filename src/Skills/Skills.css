@@ -55,4 +55,20 @@
     padding: 0 20px;
     margin: 0 20px;
   }
+
+  .skills_list_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sm {
+    display: none;
+  }
 }
+
+
+@media (max-width: 300px) {
+  .skills_list_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+

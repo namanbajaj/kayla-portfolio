@@ -15,3 +15,23 @@
   align-self: flex-end;
   justify-items: right;
 }
+
+@media (max-width: 768px) {
+  #trailrunner .flex_container_row h2 {
+    font-size: 2rem;
+    margin-top: -50px;
+  }
+
+  #trailrunner ul {
+    margin-left: -50px;
+  }
+
+  #trailrunner .flex_container_row li {
+    font-size: 1.2rem;
+  }
+
+  #trailrunner img {
+    width: 100%;
+    height: auto;
+  }
+}

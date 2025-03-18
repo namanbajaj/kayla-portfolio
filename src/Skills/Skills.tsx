@@ -16,7 +16,7 @@ const data = [
   ['Qualtrics', 'Intermediate'],
   ['HTML & Java Script', 'Beginner'],
   ['Bloomberg Terminal', 'Beginner'],
-  ['Social Media: (Instagram, Facebook, Tiktok, Reddit, Twitter, Pinterest)', 'Experienced'],
+  [<div>Social Media <span className='sm'>(Instagram, Facebook, Tiktok, Reddit, Twitter, Pinterest)</span></div>, 'Experienced'],
   ['Jun Group', 'Beginner']
 ];
 

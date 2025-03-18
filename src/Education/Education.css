@@ -43,3 +43,9 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 768px) {
+  .edu_banner_grid {
+    flex-direction: column;
+  }
+}

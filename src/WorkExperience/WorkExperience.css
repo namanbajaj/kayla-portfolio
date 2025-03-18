@@ -37,3 +37,9 @@
 .m_c {
   width: 50px; 
 }
+
+@media (max-width: 768px) {
+  #workexperience .info_box {
+    justify-content: center;
+  }  
+}
